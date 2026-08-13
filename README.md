@@ -1,4 +1,4 @@
-Markdown
+
 # Healthcare Patient Data Analysis Using Python
 
 ![Healthcare Analytics Dashboard](./MixCollage-12-Aug-2026-01-45-PM-9951.jpg)
