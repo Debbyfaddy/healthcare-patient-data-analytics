@@ -15,8 +15,8 @@ This analysis answers six key questions:
 
 ## Dataset Information
 * **Dataset Name:** Healthcare Patient Dataset
-* **Source:** Kaggle / Synthetic Healthcare Records
-* **Note:** The raw `healthcare_dataset.csv` file is processed locally and excluded from public upload for repository hygiene and performance.
+* **Source:** Kaggle / Healthcare Records
+* **Note:** The raw `healthcare_dataset.csv` file is processed locally and excluded from public repository upload for performance and hygiene.
 
 ### Key Dataset Features Analyzed:
 * `Age` — Patient age in years
@@ -96,8 +96,6 @@ Insight
 The visualization helps identify the age ranges that occur most frequently in the dataset.
 
 Visualization
-<img width="1024" height="497" alt="Screenshot 2026-08-12 101423" src="https://github.com/user-attachments/assets/beaf59f1-e0a9-49e8-8c88-f5719d295a23" />
-
 Analysis 2: Most Common Medical Conditions
 Question
 Which medical conditions are most common?
@@ -127,9 +125,6 @@ Insight
 The analysis identifies the medical conditions with the highest patient volumes.
 
 Visualization
-<img width="1053" height="498" alt="Screenshot 2026-08-12 101534" src="https://github.com/user-attachments/assets/a5dec2fe-b02c-463e-9368-1e9e5f0d3d9d" />
-
-
 Analysis 3: Average Billing by Medical Condition
 Question
 How does average billing amount vary by medical condition?
@@ -161,9 +156,6 @@ Insight
 The chart allows average billing amounts to be compared across medical conditions.
 
 Visualization
-<img width="1042" height="499" alt="Screenshot 2026-08-12 101625" src="https://github.com/user-attachments/assets/2f61d300-0838-4f7c-9b1f-b506bc6a89ae" />
-
-
 Analysis 4: Admission Type and Length of Stay
 Question
 Does admission type affect average length of stay?
@@ -194,9 +186,6 @@ Insight
 The visualization provides a comparison of hospital stay duration across admission types.
 
 Visualization
-<img width="1039" height="493" alt="Screenshot 2026-08-12 101718" src="https://github.com/user-attachments/assets/76ef3d2c-471f-46c3-9698-c7e132a5f8d6" />
-
-
 Analysis 5: Distribution of Test Results
 Question
 What is the distribution of patient test results?
@@ -224,9 +213,6 @@ Insight
 The chart shows the relative distribution of recorded patient test results.
 
 Visualization
-<img width="674" height="486" alt="Screenshot 2026-08-12 101816" src="https://github.com/user-attachments/assets/4b90da6d-5e9e-4cbe-b002-7f291c6ca02f" />
-
-
 Analysis 6: Hospital Admissions Over Time
 Question
 How do hospital admissions change over time?
@@ -264,9 +250,6 @@ Insight
 The chart helps identify periods of relatively higher or lower hospital admission activity.
 
 Visualization
-<img width="1048" height="494" alt="Screenshot 2026-08-12 101921" src="https://github.com/user-attachments/assets/bbc1c0a3-2b67-43bf-a957-944d8eb1f971" />
-
-
 Overall Key Findings
 Patient age distribution provides an overview of the demographic structure.
 
@@ -332,14 +315,7 @@ Plaintext
 healthcare-patient-data-analytics/
 │
 ├── Healthcare_Data_Analysis Project.ipynb
-├── README.md
-├── MixCollage-12-Aug-2026-01-45-PM-9951.jpg
-├── Screenshot 2026-08-12 101423.png
-├── Screenshot 2026-08-12 101534.png
-├── Screenshot 2026-08-12 101625.png
-├── Screenshot 2026-08-12 101718.png
-├── Screenshot 2026-08-12 101816.png
-└── Screenshot 2026-08-12 101921.png
+└── README.md
 Conclusion
 This project demonstrates a complete Python data-analysis workflow using healthcare patient data, from data inspection and preprocessing through analysis, visualization, insights, and recommendations.
 
