@@ -1,6 +1,8 @@
 Markdown
 # Healthcare Patient Data Analysis Using Python
 
+![Healthcare Analytics Dashboard](./MixCollage-12-Aug-2026-01-45-PM-9951.jpg)
+
 ## Project Overview
 This project analyzes healthcare patient data using Python to identify patterns in patient demographics, medical conditions, billing, hospital stays, test results, and admissions over time.
 
@@ -95,7 +97,6 @@ A histogram was used to show how patients are distributed across different age g
 Insight
 The visualization helps identify the age ranges that occur most frequently in the dataset.
 
-Visualization
 Analysis 2: Most Common Medical Conditions
 Question
 Which medical conditions are most common?
@@ -124,7 +125,6 @@ value_counts() counts the number of patients in each medical-condition category.
 Insight
 The analysis identifies the medical conditions with the highest patient volumes.
 
-Visualization
 Analysis 3: Average Billing by Medical Condition
 Question
 How does average billing amount vary by medical condition?
@@ -155,7 +155,6 @@ groupby() groups patients by medical condition, while mean() calculates the aver
 Insight
 The chart allows average billing amounts to be compared across medical conditions.
 
-Visualization
 Analysis 4: Admission Type and Length of Stay
 Question
 Does admission type affect average length of stay?
@@ -185,7 +184,6 @@ The data is grouped by admission type and the average length of stay is calculat
 Insight
 The visualization provides a comparison of hospital stay duration across admission types.
 
-Visualization
 Analysis 5: Distribution of Test Results
 Question
 What is the distribution of patient test results?
@@ -212,7 +210,6 @@ value_counts() counts each test-result category, while the pie chart shows the p
 Insight
 The chart shows the relative distribution of recorded patient test results.
 
-Visualization
 Analysis 6: Hospital Admissions Over Time
 Question
 How do hospital admissions change over time?
@@ -249,7 +246,6 @@ The admission date is converted to datetime, grouped by month, and plotted as a 
 Insight
 The chart helps identify periods of relatively higher or lower hospital admission activity.
 
-Visualization
 Overall Key Findings
 Patient age distribution provides an overview of the demographic structure.
 
@@ -310,12 +306,7 @@ Insight generation
 
 Technical documentation
 
-Project Structure
-Plaintext
-healthcare-patient-data-analytics/
-│
-├── Healthcare_Data_Analysis Project.ipynb
-└── README.md
+
 Conclusion
 This project demonstrates a complete Python data-analysis workflow using healthcare patient data, from data inspection and preprocessing through analysis, visualization, insights, and recommendations.
 
@@ -323,6 +314,7 @@ Future Analysis
 Further work could examine relationships between age and medical conditions, billing and admission type, length of stay and other patient variables, test results and medical conditions, and more detailed admission trends.
 
 References
+
 Python documentation
 
 Pandas documentation
